@@ -1,6 +1,6 @@
 import userModels from "../models/userModels.js";
 
-export const getUesrData = async (req, res) => {
+export const getUserData = async (req, res) => {
     try {
         const  userId = req.userId;
         const user = await userModels.findById(userId);
@@ -11,7 +11,7 @@ export const getUesrData = async (req, res) => {
             success: true,
             userData: {
                 name: user.name,
-                isAuthenticated: user.isAuthenticated,
+                isAccountVerified: user.isAccountVerified,
                 email: user.email
             }
          });
