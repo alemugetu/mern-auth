@@ -8,7 +8,7 @@ export const EMAIL_VERIFY_TEMPLATE = `
     <title>Email Verification</title>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; }
-        .container { max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .container { max-width: 600px; margin: 0 auto; background-color: #dcdced; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
         h1 { color: #333; }
         p { color: #666; }
         .otp { font-size: 24px; font-weight: bold; color: #007bff; text-align: center; margin: 20px 0; }
@@ -37,7 +37,7 @@ export const PASSWORD_RESET_TEMPLATE = `
     <title>Password Reset</title>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; }
-        .container { max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .container { max-width: 600px; margin: 0 auto; background-color: #dcdced; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
         h1 { color: #333; }
         p { color: #666; }
         .otp { font-size: 24px; font-weight: bold; color: #dc3545; text-align: center; margin: 20px 0; }
